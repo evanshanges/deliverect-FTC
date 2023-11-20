@@ -74,3 +74,27 @@ Update package.json's `client` command such that your frontend showcasing the wi
 You are free to write your code using any JS frameworks, and libraries. But please reuse the existing `package.json`.
 
 Please ensure that you have some documentation left in this README.md about your work.
+
+
+# Documentation
+
+Here is some documentation regarding how to run the code and some of my decision making while completing this challenge
+
+## Installing dependencies
+
+To install both Server and Client dependencies I created a script to install both with one command insteading of navigating in and out of the client directory.
+```
+npm run installAll
+```
+
+## Running the code
+
+### Server (port: 5000): 
+```
+npm run server
+```
+
+### Client (port: 5001):
+```
+npm run client
+```
